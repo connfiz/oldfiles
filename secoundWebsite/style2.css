@@ -1,0 +1,18 @@
+table {
+width: 70%;
+ background-color: green;
+ }
+ font-faminly:'fjalla one' , sans-sertif;
+ font-family:'Sansita Swashed', sans-sertif;
+ td { font-family: 'fjalla one';}
+ th { font-family:'fjalla one';}
+
+ td,  th { border: 3px dashed ;
+  text-align: left ;
+ padding: 10 px;}
+
+ li{ display: inline ;
+ padding: 10px ;
+background-color: green ;
+margin: 5px;
+}

@@ -1,0 +1,82 @@
+DROP DATABASE cfarm;
+
+CREATE DATABASE cfarm;
+
+USE cfarm;
+CREATE TABLE buysorders( 
+Bid VARCHAR(4) NOT NULL, 
+product VARCHAR(20) NOT NULL, 
+amount VARCHAR(20) NOT NULL, 
+orderdate VARCHAR(60), 
+arrivaldate VARCHAR(12), 
+cost VARCHAR(30) NOT NULL,
+PRIMARY KEY (Bid)
+);
+
+
+
+
+CREATE TABLE salesorder(
+SNo VARCHAR(4) NOT NULL,
+product VARCHAR(20) NOT NULL, 
+amount VARCHAR(20) NOT NULL, 
+orderdate VARCHAR(30), 
+arrivaldate VARCHAR(30), 
+cost VARCHAR(30) NOT NULL,
+deliveryAddress VARCHAR(60) NOT NULL,
+PRIMARY KEY (SNo)
+);
+
+
+
+
+
+
+CREATE TABLE animals( 
+breed VARCHAR(40),
+weight VARCHAR(20),
+cost VARCHAR(20),
+Ano VARCHAR(4),
+PRIMARY KEY (ANo)
+);
+
+
+
+CREATE TABLE inventory( 
+description_ VARCHAR(40),
+weight VARCHAR(20),
+cost VARCHAR(20),
+Iid VARCHAR(4),
+PRIMARY KEY (Iid)
+);
+
+
+CREATE TABLE farm(
+FNo VARCHAR(4) NOT NULL, 
+Street VARCHAR(30),
+Area VARCHAR(30),
+City VARCHAR(30), 
+Eircode VARCHAR(10) NOT NULL, 
+TelNo VARCHAR(12) NOT NULL, 
+land VARCHAR(30) ,
+PRIMARY KEY (FNo)
+
+);
+
+
+CREATE TABLE PurchaseOrders(
+Ano VARCHAR(4) NOT NULL,
+SNo VARCHAR(4) NOT NULL,
+Bid VARCHAR(4) NOT NULL, 
+Iid VARCHAR(4) NOT NULL,
+FNo VARCHAR(4) NOT NULL,
+FOREIGN KEY (FNo) REFERENCES farm (fNo) ON UPDATE CASCADE,
+FOREIGN KEY (ANo) REFERENCES animals (Ano) ON UPDATE CASCADE,
+FOREIGN KEY (SNo) REFERENCES salesorder (SNo) ON UPDATE CASCADE,
+FOREIGN KEY (Bid) REFERENCES buysorders (Bid) ON UPDATE CASCADE,
+FOREIGN KEY (Iid) REFERENCES inventory (Iid) ON UPDATE CASCADE
+);
+
+
+
+

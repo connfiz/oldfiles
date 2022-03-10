@@ -1,0 +1,18 @@
+a{ color: red;
+}
+a
+.sml{ width:100px;
+height:100px ;}
+.med{  width:200px;
+height: 200px;}
+body{ background-image: url("pointers.png");
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-position: top ;
+}
+}
+{font-faminly:'fjalla one' , sans-sertif;
+font-family:'Sansita Swashed', sans-sertif;}
+.header { font-family: 'fjalla one';}
+h1{ text-align: center;}
+.body{ font-family:'Sansita Swashed';}

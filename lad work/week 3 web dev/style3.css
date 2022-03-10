@@ -1,0 +1,28 @@
+div{ height: 150px ;
+width: 150px ;
+margin: 20px;
+position: absolute;
+display: block;}
+.pink{ background-color: pink;
+  top: 70px;
+  left : 70px;
+  z-index: 4;
+
+}
+.red { background-color: red;
+  top: 100px;
+  left: 100px;
+  z-index: 3;
+
+}
+.green{
+  background-color: green ;
+  top:120px;
+  left: 120px ;
+  z-index: 2;
+}
+.blue{ background-color: blue;
+  top: 150px ;
+  left: 150px;
+  z-index: 1;
+}

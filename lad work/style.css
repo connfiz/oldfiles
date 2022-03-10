@@ -1,0 +1,29 @@
+table {
+width: 60%;
+ background-color: green;
+ }
+ {font-faminly:'fjalla one' , sans-sertif;
+ font-family:'Sansita Swashed', sans-sertif;}
+ .header { font-family: 'fjalla one';}
+ body { font-family:'fjalla one';}
+
+ td, th { border: 3px dashed ;
+  text-align: left ;
+ padding: 10 px;
+color: red;}
+
+
+
+
+.header { background-color:yellow;
+}
+
+
+head{ font-family: 'Sansita Swashed';}
+.header{background-color:blue;
+ }
+ body {background-color: black;
+ color: white; }
+span{  text-align:center ; border: 2px dashed; padding: 1 px; color:blue;}
+span:hover{background-color:  pink;}
+.body{background-color: orange ;}

@@ -1,0 +1,9 @@
+body{ text-align: center;}
+.blackbox { background-color: black ;
+color: white;
+width:50% ;
+height: 300px
+margin: 0 auto;
+}
+li{ display: inline
+}

@@ -1,0 +1,19 @@
+div{ height: 150px ;
+width: 150px ;
+margin: 20px;
+display: inline-block;}
+.one{
+background-color: yellow ;}
+.two{ background-color: red ;
+  float: left;}
+.three{
+background-color:blue;
+float:right;
+clear: both;}
+.four{background-color:green;
+float;left: }
+span{ display: inline;
+width: 40px;
+height: 20px;
+margin: 10px;
+background-color: green;}

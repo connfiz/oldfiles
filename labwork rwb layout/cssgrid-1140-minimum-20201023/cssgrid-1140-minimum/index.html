@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<!--3 main elements -->
+	<!--1.Container from left to right-->
+	<!--2.Each container has a row -->
+	<!--3. Each row has columns-->
+	<head>
+		<meta charset="utf-8" />
+		<title>The 1140px Grid &middot; Fluid down to mobile</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- 1140px Grid styles for IE -->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+		<!-- The 1140px Grid - http://cssgrid.net/ -->
+		<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+		
+		<!-- Your styles -->
+		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+		
+		<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+		<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+		
+		<!--Delete embedded styles, just for example.-->
+		<style type="text/css">
+
+		<!--media queries work the size of the text -->
+		
+		<!-- the 1140 grid fits perfectly into a 1280 monitor. 12 blocks-->
+
+		
+		body {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		
+
+		.container p {
+			color: #fff;
+			line-height: 100px;
+			background: #000;
+			text-align: center;
+			margin: 20px 0 0 0;
+		}
+		
+		</style>
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="onecol">
+					<p>1</p>
+				</div>
+				<div class="onecol">
+					<p>2 </p>
+				</div>
+				<div class="onecol">
+					<p>3</p>
+				</div>
+				<div class="onecol">
+					<p>4</p>
+				</div>
+				<div class="onecol">
+					<p>5</p>
+				</div>
+				<div class="onecol">
+					<p>6</p>
+				</div>
+				<div class="onecol">
+					<p>7</p>
+				</div>
+				<div class="onecol">
+					<p>8</p>
+				</div>
+				<div class="onecol">
+					<p>9</p>
+				</div>
+				<div class="onecol">
+					<p>10</p>
+				</div>
+				<div class="onecol">
+					<p>11</p>
+				</div>
+				
+				<div class="onecol last">
+					<p>12</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="twocol">
+					<p>2</p>
+				</div>
+				<div class="twocol">
+					<p>2 </p>
+				</div>
+				<div class="twocol">
+					<p>2</p>
+				</div>
+				<div class="twocol">
+					<p>2</p>
+				</div>
+				<div class="twocol">
+					<p>2</p>
+				</div>
+				
+				
+				<div class="twocol last">
+					<p>2 last</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="threecol">
+					<p>Hello 3</p>
+				</div>
+				<div class="threecol">
+					<p>3</p>
+				</div>
+				<div class="threecol">
+					<p>3</p>
+				</div>
+
+				<div class="threecol last">
+					<p>3 last</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="fourcol">
+					<p>Hello there 4</p>
+				</div>
+				<div class="fourcol">
+					<p>4</p>
+				</div>
+				<div class="fourcol last">
+					<p>4 last</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="sixcol">
+					<p>Hello 6</p>
+				</div>
+				<div class="sixcol last">
+					<p>6 last</p>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="twelvecol last">
+					<p>This is 12 last</p>
+						
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
