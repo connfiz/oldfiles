@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="235" max="-2" attributes="0"/>
+              <Component id="tittleJL" min="-2" pref="176" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="NameJL" alignment="0" min="-2" pref="73" max="-2" attributes="0"/>
+                  <Component id="numberJL" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="descriptionJL" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="priceJL" alignment="0" min="-2" pref="48" max="-2" attributes="0"/>
+                  <Component id="brandJL" min="-2" max="-2" attributes="0"/>
+                  <Component id="colourJL" min="-2" max="-2" attributes="0"/>
+                  <Component id="sizeJL" min="-2" max="-2" attributes="0"/>
+                  <Component id="typeJL" min="-2" max="-2" attributes="0"/>
+                  <Component id="publisherJL" min="-2" max="-2" attributes="0"/>
+                  <Component id="urlJL" min="-2" pref="59" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="searchbtn" min="-2" max="-2" attributes="0"/>
+                          <Component id="addbtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="loadbtn" min="-2" max="-2" attributes="0"/>
+                          <Component id="displaybtn" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                              <Component id="savebtn" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="randombtn" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="numberfield" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="namefield" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="descriptionfield" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="pricefield" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="urlfield" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="publisherfield" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="typefield" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="sizefield" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="colourfield" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                          <Component id="brandfield" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="66" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="craftsuppliesRB" min="-2" max="-2" attributes="0"/>
+                  <Component id="boardgameRB" min="-2" max="-2" attributes="0"/>
+                  <Component id="clothingRB" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="tittleJL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="boardgameRB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NameJL" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="namefield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="clothingRB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numberJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="numberfield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="craftsuppliesRB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="descriptionJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="descriptionfield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="priceJL" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="pricefield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="urlJL" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="urlfield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="publisherJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="publisherfield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="typeJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="typefield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sizeJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sizefield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="colourJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="colourfield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="brandJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="brandfield" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="displaybtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="savebtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="searchbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="loadbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="randombtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="tittleJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="product c.r.u.d system"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="boardgameRB">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="board game"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boardgameRBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="clothingRB">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="clothing"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clothingRBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="craftsuppliesRB">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="craft supplies"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="craftsuppliesRBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NameJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="descriptionJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="description"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="priceJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="price"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="urlJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="url"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="publisherJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="publisher"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="typeJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="type"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sizeJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="size"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="colourJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="colour"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="brandJL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="brand"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="namefield">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="namefieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="numberfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descriptionfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="pricefield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="urlfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="publisherfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="typefield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="sizefield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="colourfield">
+    </Component>
+    <Component class="javax.swing.JTextField" name="brandfield">
+    </Component>
+    <Component class="javax.swing.JButton" name="addbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="displaybtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="display"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="displaybtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="savebtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="savebtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="searchbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="loadbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="load"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loadbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="randombtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="random"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="randombtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
