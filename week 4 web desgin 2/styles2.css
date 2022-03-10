@@ -1,0 +1,57 @@
+body{
+	background-color: #e6ff99;
+}
+#pagewrapper{
+	width: 95%;
+	margin: 0 auto;
+}
+#content{
+	float:left;
+}
+
+#sidebar{
+	float: right;
+}
+
+@media screen and (max-width: 980px) {
+	#pagewrapper {
+		width: 90%;
+		margin: 0auto;
+	}
+	#content {
+		width: 65%;
+		background-color: white;
+	}
+	#sidebar {
+		width: 30%;
+		background-color: orange;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+	#content {
+		width: auto;
+		float: none;
+		background-color: yellow;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+		background-color: white;
+	}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	#sidebar {
+		display: none;
+		background-color: black;
+	}
+}

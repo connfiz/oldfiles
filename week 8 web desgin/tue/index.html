@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+          <title>Title of the document</title>
+          <link rel="stylesheet" href="style.css">
+          <script type="text/javascript">
+          var num;
+          num = parseInt( prompt("enter grade ", "1-100"));
+          if(num > 0 && num <= 39 ){ //1-5
+
+            document.write(" grade is a fail");
+          }else if (num > 40 && num < 54 ) {
+
+            document.write("pass 40 - 54 ");
+          }else if (num > 55 && num < 74 ) {
+
+            document.write("merit 55-74 ");
+          }else if (num > 75 && num < 101 ) {
+
+            document.write("distiontion 75-100 ");
+
+          }else {
+            document.write("not graded yet  ");
+          }
+          </script>
+    </head>
+
+    <body>
+
+    </body>
+</html>
